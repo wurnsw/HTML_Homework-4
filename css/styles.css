@@ -206,7 +206,16 @@ a {
 
   height: 600px;
 
-  background-color: var(--background-color);
+  background: linear-gradient(
+      90deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 0%
+    ),
+    url("/images/banner--bg.jpeg"), var(--background-color);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center top 30%;
 }
 
 .banner__title {
