@@ -26,7 +26,7 @@ ol {
   --color-black: #212121;
   --color-link-footer: #ffffff99;
   --background-color: #2f303a;
-  --color-filters-button: #f5f4fa;
+  --color-light-blue: #f5f4fa;
   --color-projects-border: #eeeeee;
 }
 /* #endregion */
@@ -154,20 +154,19 @@ a {
   color: var(--color-blue);
 }
 
-.contacts__icon{
-  color:inherit;
+.contacts__icon {
+  color: inherit;
 }
 
-.contacts__icon--email{
+.contacts__icon--email {
   width: 16px;
   height: 12px;
 }
 
-.contacts__icon--number{
+.contacts__icon--number {
   width: 10px;
   height: 16px;
 }
-
 
 /* #endregion */
 
@@ -269,7 +268,7 @@ a {
   font-weight: 500;
   line-height: 30px;
 
-  background-color: #f5f4fa;
+  background-color: var(--color-light-blue);
   color: var(--color-black);
 
   border: none;
@@ -309,6 +308,29 @@ a {
 .features__list {
   display: flex;
   gap: 30px;
+}
+
+.feature {
+  width: 270px;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.feature__image {
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+
+  background-color: var(--color-light-blue);
+
+  border-radius: 4px;
 }
 
 .feature__title {
@@ -474,4 +496,3 @@ a {
 }
 
 /* #endregion */
-
