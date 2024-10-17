@@ -452,6 +452,16 @@ a {
 
 /* #endregion */
 
+/* #region CLIENTS */
+.clients__list{
+  display: flex;
+}
+/* #endregion */
+
+/* #region CLIENT */
+
+/* #endregion */
+
 /* #region FOOTER */
 
 .footer {
