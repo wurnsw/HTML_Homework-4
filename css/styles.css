@@ -453,12 +453,39 @@ a {
 /* #endregion */
 
 /* #region CLIENTS */
-.clients__list{
+
+.clients__list {
   display: flex;
+  gap: 30px;
+}
+
+.clients__item {
+  color: var(--color-icon);
+  background-color: var(--color-white);
+
+  border: 1px solid var(--color-icon);
+  border-radius: 4px;
+
+  transition: 200ms color;
+}
+
+.clients__item:hover {
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
 }
 /* #endregion */
 
 /* #region CLIENT */
+.client__link {
+  padding: 15px 31px;
+
+  display: flex;
+}
+
+.client__icon {
+  width: 106px;
+  height: 60px;
+}
 
 /* #endregion */
 
