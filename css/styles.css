@@ -28,6 +28,7 @@ ol {
   --background-color: #2f303a;
   --color-light-blue: #f5f4fa;
   --color-projects-border: #eeeeee;
+  --color-icon: #afb1b8;
 }
 /* #endregion */
 
@@ -314,11 +315,6 @@ a {
   width: 270px;
 }
 
-.feature__icon {
-  width: 70px;
-  height: 70px;
-}
-
 .feature__image {
   margin-bottom: 30px;
 
@@ -331,6 +327,11 @@ a {
   background-color: var(--color-light-blue);
 
   border-radius: 4px;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
 }
 
 .feature__title {
@@ -380,8 +381,6 @@ a {
 /* #region PERSON */
 
 .person {
-  box-shadow: 0px 2px 1px 0px #00000033;
-  box-shadow: 0px 1px 1px 0px #00000024;
   box-shadow: 0px 1px 3px 0px #0000001f;
   border-radius: 4px;
   background-color: var(--color-white);
@@ -406,12 +405,51 @@ a {
 }
 
 .person__role {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.03em;
 
   color: var(--color-grey);
 }
+
+/* #endregion */
+
+/* #region SOCIAL */
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social__item {
+  color: var(--color-icon);
+  background-color: var(--color-white);
+
+  border-radius: 50%;
+
+  transition: 200ms background-color;
+}
+
+.social__item:hover {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+
+.social__link {
+  padding: 12px;
+
+  display: flex;
+}
+
+.social__icon {
+  width: 20px;
+  height: 20px;
+}
+
 /* #endregion */
 
 /* #region FOOTER */
