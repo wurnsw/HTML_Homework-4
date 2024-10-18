@@ -565,6 +565,8 @@ a {
 .project {
   display: flex;
   flex-direction: column;
+
+  transition: all 200ms;
 }
 
 .project:hover {
