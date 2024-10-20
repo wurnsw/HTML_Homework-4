@@ -420,6 +420,22 @@ a {
 /* #region SOCIAL */
 
 .social {
+}
+
+.social__title {
+  margin: 0 0 20px;
+
+  line-height: 16px;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-white);
+}
+
+.social__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -512,19 +528,6 @@ a {
 
 .footer__logo {
   margin: 0 0 20px;
-}
-
-.footer__title {
-  margin: 0 0 20px;
-
-  line-height: 16px;
-
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--color-white);
 }
 
 /* #endregion */
